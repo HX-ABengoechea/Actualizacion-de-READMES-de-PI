@@ -2,7 +2,7 @@
 
 # **GUÍA | ¿Cómo empezar un proyecto individual?**
 
-### 🤓 Antes de comenzar, te recomendamos leer el [**README**](./COUNTRIES.md) y la Documentación de la API Externa para comprender la temática que debes desarrollar y lo que se considera como requisito obligatorio para estar en condiciones de presentar un PI.
+### 🤓 Antes de comenzar, te recomendamos leer el [**README**](./README.md) y la Documentación de la API Externa para comprender la temática que debes desarrollar y lo que se considera como requisito obligatorio para estar en condiciones de presentar un PI.
 
 <br />
 
@@ -20,7 +20,7 @@
 
 -  Es requisito que el formulario de creación esté validado con JavaScript y no sólo con validaciones HTML.
 -  Para las funcionalidades de filtrado y ordenamiento **NO** puedeS utilizar los end-points de la API externa que ya devuelven los resultados filtrados u ordenados, sino que debes realizarlo tu mismo.
--  Utilizar únicamente los end-points que están indicados en el [**README**](./COUNTRIES.md).
+-  Utilizar únicamente los end-points que están indicados en el [**README**](./README.md).
 
 <br />
 
@@ -61,7 +61,7 @@
 
 ### **📌 MODELOS**
 
--  Debemos generar el código para ambos modelos y tener en cuenta que en el [**README**](./COUNTRIES.md) nos especifica cuáles campos son obligatorios (lo que te ayudará a utilizar validaciones y restricciones en cada campo, de ser necesario).
+-  Debemos generar el código para ambos modelos y tener en cuenta que en el [**README**](./README.md) nos especifica cuáles campos son obligatorios (lo que te ayudará a utilizar validaciones y restricciones en cada campo, de ser necesario).
 
    > **[⚠️ IMPORTANTE ]**: busca la forma de generar un `ID` que no te traiga conflictos con los IDs que tienen los elementos traídos de la API. Existe, por ejemplo, el identificador único universal o UUID. Investiga sobre esto 😛.
 
@@ -70,7 +70,7 @@
 <br />
 
 <div align="center" >
-<img src="./assets/commentsExample.png" alt="" />
+<img src="./commentsExample.png" alt="" />
 </div>
 
 <br />
@@ -81,10 +81,10 @@
 
 ### **📌 RUTAS**
 
--  Una vez realizados los modelos y las relaciones, podemos pensar en las rutas. Recuerda leer el [**README**](./COUNTRIES.md), donde se indica cuáles son las rutas necesarias, además de si son de tipo GET o POST, y si necesitan params o query params.
+-  Una vez realizados los modelos y las relaciones, podemos pensar en las rutas. Recuerda leer el [**README**](./README.md), donde se indica cuáles son las rutas necesarias, además de si son de tipo GET o POST, y si necesitan params o query params.
 
    -  La ruta GET que retorna todos los resultados debe devolver sólo los datos necesarios para la ruta principal (tanto los mostrados en cada Card, como los necesarios para realizar los filtros y ordenamientos).
-   -  La ruta GET por ID utilizada para mostrar el detalle de cada elemento debe traer sólo los datos pedidos en la ruta de detalle (según lo indicado en el [**README**](./COUNTRIES.md)).
+   -  La ruta GET por ID utilizada para mostrar el detalle de cada elemento debe traer sólo los datos pedidos en la ruta de detalle (según lo indicado en el [**README**](./README.md)).
 
 > **[ NOTA ]**: recuerda que para usar librerías como `axios` deberás instalarlas previamente.
 
@@ -125,8 +125,8 @@
 ### **📌 HOME PAGE**
 
 -  Aquí vas a renderizar los resultados obtenidos; cada uno en una card. Además, existen otros elementos necesarios:
-   -  **Paginado**: con la cantidad de elementos mencionados en el [**README**](./COUNTRIES.md)).
-   -  **Search**: buscar por algún criterio. Lee en el [**README**](./COUNTRIES.md) si la búsqueda debe ser exacta o no.
+   -  **Paginado**: con la cantidad de elementos mencionados en el [**README**](./README.md)).
+   -  **Search**: buscar por algún criterio. Lee en el [**README**](./README.md) si la búsqueda debe ser exacta o no.
    -  **Filtros**: los resultados deben estar paginados.
    -  **Ordenamiento**: debe funcionar combinado con el/los filtro/s.
 
@@ -134,7 +134,7 @@
 
 ### **📌 DETAIL PAGE**
 
--  Se debe visualizar toda la información que se solicita en el [**README**](./COUNTRIES.md).
+-  Se debe visualizar toda la información que se solicita en el [**README**](./README.md).
 
 <br />
 

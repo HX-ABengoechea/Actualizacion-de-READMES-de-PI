@@ -245,4 +245,4 @@ Ten en cuenta que en esta instancia no es obligatorio el desarrollo de testing p
 
 <div align="center">
 <img src="./assets/cooking.png" alt="" />
-</ div>
+</div>
