@@ -155,6 +155,7 @@ Tu servidor deberá contar con las siguientes rutas:
 -  Esta ruta debe obtener los primeros 15 videojuegos que se encuentren con la palabra recibida por query.
 -  Debe poder buscarlo independientemente de mayúsculas o minúsculas.
 -  Si no existe el videojuego, debe mostrar un mensaje adecuado.
+-  Debe buscar tanto los de la API como los de la base de datos.
 
 #### **📍 POST | /videogames**
 
@@ -197,7 +198,7 @@ Se debe desarrollar una aplicación utilizando **React** y **Redux** que conteng
 -  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente los videojuegos por orden alfabético y por rating.
 -  Paginado: el listado de videojuegos se hará por partes. Tu SPA debe contar con un paginado que muestre un total de 15 videojuegos por página.
 
-**⚠️ IMPORTANTE**: se deben mostrar tanto las recetas traidas desde la API como así también las de la base de datos, pero **NO** está permitido almacenar en la base de datos las recetas de la API. **Solamente se pueden guardar aquellas creadas desde el form**.
+**⚠️ IMPORTANTE**: se deben mostrar tanto los videojuegos traidos desde la API como así también los de la base de datos, pero **NO** está permitido almacenar en la base de datos los videojuegos de la API. **Solamente se pueden guardar aquellos creados desde el form**.
 
 **⚠️ IMPORTANTE:** debido a que en la API existen alrededor de 500.000 videojuegos, por cuestiones de performance puedes tomar la simplificación de obtener y **paginar** los primeros 100 videojuegos.
 
