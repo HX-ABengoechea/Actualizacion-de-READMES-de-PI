@@ -148,7 +148,7 @@
 
 <br />
 
-<h1 align="center"> FRONT-END </h1>
+<h1 align="center"> PUNTOS EXTRA </h1>
 
 ### **📌 TESTS**
 
